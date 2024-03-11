@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2575810e-f2c2-46be-aebf-3f94d8fa5a49" name="Changes" comment="" />
+    <list default="true" id="2575810e-f2c2-46be-aebf-3f94d8fa5a49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/budget-system-design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/controllers/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/controllers/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000001_create_users_table.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000001_create_users_table.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000002_create_budgets_table.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000002_create_budgets_table.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000003_create_expenses_table.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/db/migrations/000003_create_expenses_table.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/delivery/http/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_repo/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_repo/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_repo/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_usecase/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_usecase/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/mock_usecase/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/budget.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/expense.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/utilities/password.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/utilities/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/utilities/user.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

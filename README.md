@@ -9,7 +9,7 @@ First of all, please fill your db user and password into `env/config.json`
    go run cmd/server/main.go
 ```
 
-# System Design
+# [System Design](https://excalidraw.com/#json=P8PxwV_LTcSld3lVXvDGW,n6HJTFGUEfLpwgsHC4Zq_Q)
 ![System Design](./docs/budget-system-design.svg)
 
 ## Functional requirement
