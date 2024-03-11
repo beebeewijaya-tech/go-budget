@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS budgets (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255),
+    current DOUBLE PRECISION DEFAULT 0,
+    max DOUBLE PRECISION DEFAULT 0,
+    user_id UUID NOT NULL,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+
+    CONSTRAINT fk_user_id FOREIGN KEY(user_id) REFERENCES users(id)
+)
